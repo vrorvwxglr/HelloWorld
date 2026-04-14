@@ -1,8 +1,3 @@
-module HelloWorld;
-
-  initial begin
-    $display("Hello, World!");
-    $finish; // Terminate simulation
-  end
-
-endmodule
+fn main() {
+    println('hello world')
+}
